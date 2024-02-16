@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "2c3f979d-7311-4695-9115-86f57d0453e1",
+		"name": "SQLite CRUD API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32958740"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/add?food_type=Tacos&current_location=Malibu&remembered_location=Los Angeles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/add?food_type=&current_location=&remembered_location=",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"add"
+					],
+					"query": [
+						{
+							"key": "food_type",
+							"value": ""
+						},
+						{
+							"key": "current_location",
+							"value": ""
+						},
+						{
+							"key": "remembered_location",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/all",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/entry?id=f81b9033-3878-432f-81b7-f15924af292f",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/entry?id=",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"entry"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/entry?id=ed7caef0-a840-44a2-9350-6fd81667fa69&food_type=Fish&current_location=Wooster&remembered_location=Sweden",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/entry?id=&food_type=&current_location=&remembered_location=",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"entry"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": ""
+						},
+						{
+							"key": "food_type",
+							"value": ""
+						},
+						{
+							"key": "current_location",
+							"value": ""
+						},
+						{
+							"key": "remembered_location",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/entry?id=f81b9033-3878-432f-81b7-f15924af292f",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/entry?id=",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"entry"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
